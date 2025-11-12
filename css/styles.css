@@ -1,7 +1,7 @@
 /* Estilo general */
 body {
   margin: 0;
-  font-family: Roboto, 'Segoe UI', sans-serif;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
   background-color: #f4f6f8;
   color: #333;
   line-height: 1.6;
@@ -15,23 +15,23 @@ body {
   background-color: #0a49db;
   padding: 15px 30px;
   flex-wrap: wrap;
-  box-shadow: 0 2px 10px rgb(48 20 172 / 10%);
+  box-shadow: 0 2px 10px rgba(48, 20, 172, 0.1);
 }
 
 .logo {
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 600;
 }
 
-#nav-items {
+#navItems {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-#nav-items a {
+#navItems a {
   color: #e0e0e0;
   text-decoration: none;
   padding: 8px 14px;
@@ -40,14 +40,14 @@ body {
   font-size: 15px;
 }
 
-#nav-items a:hover,
-#nav-items a.active {
+#navItems a:hover,
+#navItems a.active {
   background-color: #3a3f4b;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* Inputs y botón */
-input#tema-input {
+input#temaInput {
   padding: 7px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -56,7 +56,7 @@ input#tema-input {
   outline: none;
 }
 
-button#add-tema-btn {
+button#addTemaBtn {
   padding: 7px 14px;
   margin-left: 8px;
   background-color: #e4e009;
@@ -68,7 +68,7 @@ button#add-tema-btn {
   transition: background-color 0.3s;
 }
 
-button#add-tema-btn:hover {
+button#addTemaBtn:hover {
   background-color: #2d24a3;
 }
 
@@ -80,10 +80,10 @@ button#add-tema-btn:hover {
 /* Secciones de página */
 .page {
   display: none;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 16px rgb(0 0 0 / 6%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   max-width: 900px;
   margin: auto;
 }
