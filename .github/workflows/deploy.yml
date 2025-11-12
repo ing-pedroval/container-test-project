@@ -53,7 +53,8 @@ jobs:
         -   name: Prepare site for deployment
             run: |
                 mkdir public
-                cp -r *.html *.css images public/ 2>/dev/null || true
+                cp -r html css js public/
+                if [ -d "images" ]; then cp -r images public/; fi
 
         -   name: Upload site artifact
             uses: actions/upload-pages-artifact@v3
