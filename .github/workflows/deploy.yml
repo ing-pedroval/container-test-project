@@ -61,7 +61,7 @@ jobs:
         -   name: Upload site artifact
             uses: actions/upload-pages-artifact@v3
             with:
-                path: public
+                path: deploy
 
     deploy:
         name: Despliegue en GitHub Pages
